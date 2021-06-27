@@ -629,6 +629,7 @@ section-container:not(.reverse) > :nth-child(2){
 	bottom: 0;
 	left: 0;
 	background: radial-gradient(80.47% 44.15% at right center,#710546 0,rgba(113,5,57,0) 100%);
+	opacity: 0.6;
 }
 
 .home-stats-section .gradient-bg{
@@ -638,6 +639,7 @@ section-container:not(.reverse) > :nth-child(2){
 	bottom: 0;
 	left: 0;
 	background: radial-gradient(45.52% 45.16% at left center,#1b4b3a 0,rgba(27,75,67,0) 100%);
+	opacity: 0.6;
 }
 
 .title-component{
@@ -955,12 +957,4 @@ hr {
 }
 
 
-@media (max-width: 480px){
-	.home-stats-section .gradient-bg{
-		display: none;
-	}
-	.experience-pc-section .gradient-bg{
-		display: none;
-	}
 
-}
