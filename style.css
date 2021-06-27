@@ -957,10 +957,10 @@ hr {
 
 @media (max-width: 480px){
 	.home-stats-section .gradient-bg{
-		top:4561px;
+		display: none;
 	}
 	.experience-pc-section .gradient-bg{
-		top:5619px;
+		display: none;
 	}
 
 }
