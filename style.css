@@ -11,6 +11,7 @@
 a{
 	color: #006ef5;
 	background-color: transparent;
+	-webkit-background-clip: text;
 }
 
 
