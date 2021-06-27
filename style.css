@@ -264,6 +264,7 @@ section.intro-section{
 .gradient-text{
 	color: transparent;
 	background-clip: text;
+	-webkit-background-clip: text;
 }
 
 .presentation-paragraph{
