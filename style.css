@@ -953,3 +953,14 @@ hr {
 	}
 
 }
+
+
+@media (max-width: 768px){
+	.home-stats-section .gradient-bg{
+		top:4561px;
+	}
+	.experience-pc-section .gradient-bg{
+		top:5619px;
+	}
+
+}
