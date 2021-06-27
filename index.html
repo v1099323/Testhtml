@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Исследовать - Ubisoft Connect</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<header class="header">
+			<div class="container">
+				<div class="header__body">
+					<a href="#" class="header__logo"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEzIiBoZWlnaHQ9IjE4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0zLjIzMyAxNi43ODRhNS45NTcgNS45NTcgMCAwMS0yLjQxNS0yLjU0MkMuMjcgMTMuMTU4IDAgMTEuOTMyIDAgMTAuNTYyVi4yOTNoMy43MXY5Ljk3N2MwIDEuMjU2LjI5IDIuMjE5Ljg2NSAyLjg5OC41NzYuNjc2IDEuNDA0IDEuMDE0IDIuNDc1IDEuMDE0IDEuMDcgMCAxLjg5OS0uMzM4IDIuNDc1LTEuMDE0LjU3OS0uNjc2Ljg2NS0xLjY0Mi44NjUtMi44OThWLjI5NGgzLjcxdjEwLjI3YzAgMS4zNzEtLjI3MSAyLjU5OC0uODE4IDMuNjgyYTUuOTU3IDUuOTU3IDAgMDEtMi40MTYgMi41NDJjLTEuMDY3LjYxMy0yLjMzOS45MTgtMy44Mi45MTgtMS40OCAwLTIuNzUtLjMwOC0zLjgxMy0uOTIyem0xMi43LTE2LjQ5aDUuNjg2YzEuNjYgMCAyLjk4NC4zNyAzLjk3OCAxLjExMy45OTMuNzQyIDEuNDg4IDEuNzQ5IDEuNDg4IDMuMDIgMCAuOTI5LS4xOTggMS43LS41OTggMi4zMS0uNC42MS0uOTQ5IDEuMDY1LTEuNjQ1IDEuMzU2IDIuMDM0Ljc2NyAzLjA1IDIuMTc0IDMuMDUgNC4yMjggMCAuOTc3LS4yNSAxLjg1NS0uNzQ1IDIuNjMtLjQ5NC43NzUtMS4xOTggMS4zNzgtMi4xMTEgMS44MTEtLjkxMy40MzMtMS45NzYuNjQ3LTMuMTk3LjY0N2gtNS45MDZWLjI5NHptNS42NiA2Ljg5NWMuNTg3IDAgMS4wNTItLjE1OCAxLjQwNC0uNDc4LjM0OS0uMzE1LjUyNS0uNzYuNTI1LTEuMzMzIDAtLjU3LS4xNzYtMS4wMTQtLjUyNS0xLjMzMy0uMzUyLS4zMTYtLjgxNy0uNDc4LTEuNDA0LS40NzhoLTEuOTV2My42MThoMS45NXYuMDA0em0uMSA2Ljk0M2MuNzk1IDAgMS40MS0uMTg0IDEuODQtLjU1MS40MzItLjM2Ny42NDktLjkuNjQ5LTEuNjAyIDAtLjcwMS0uMjE3LTEuMjM0LS42NS0xLjYwMS0uNDMyLS4zNjgtMS4wNDQtLjU1MS0xLjg0LS41NTFoLTIuMDV2NC4zMDVoMi4wNXpNMjkuMzI5LjI5NGgzLjcxdjE3LjExNWgtMy43MVYuMjk0em03LjM0NyAxNi40MzFjLTEuMDc1LS42NS0xLjg0OC0xLjU4LTIuMzE3LTIuNzg4bDIuOTUtMi4yYy4yNjEuNzUuNzAxIDEuMzUyIDEuMzE3IDEuODEuNjE2LjQ1NiAxLjI4My42ODQgMi4wMDIuNjg0LjYxNiAwIDEuMTIxLS4xNTggMS41MTQtLjQ3Ny4zODgtLjMyLjU4Ni0uNzQ2LjU4Ni0xLjI4MyAwLS41MjEtLjIyLS45Ny0uNjYtMS4zNDQtLjQ0LS4zNzUtMS4yNTMtLjc3NS0yLjQ0MS0xLjE5OC0xLjQ4MS0uNTQtMi42MTQtMS4xOTQtMy40MDItMS45NjktLjc4OC0uNzc1LTEuMTg0LTEuODIyLTEuMTg0LTMuMTQgMC0uOTExLjIzNC0xLjczOC43MDctMi40NjkuNDczLS43MzUgMS4xMy0xLjMwOCAxLjk3Ni0xLjcyMy44NDctLjQxNSAxLjgwOC0uNjI0IDIuODc4LS42MjQgMS4zMTYgMCAyLjQ2LjI2NCAzLjQyOC43OTMuOTY4LjUzIDEuNjg2IDEuMzA4IDIuMTYgMi4zMzZsLTIuOTUyIDIuMDU0Yy0uNTg3LTEuMzE5LTEuNTE0LTEuOTgtMi43ODMtMS45OC0uNTY4IDAtMS4wMzcuMTQtMS40MDQuNDE1LS4zNjYuMjgtLjU1LjYzNi0uNTUgMS4wNzYgMCAuNDg5LjI1Ny45MTkuNzcgMS4yODYuNTE0LjM2NyAxLjQxOS43NzkgMi43MiAxLjIzNCAxLjUzLjUzNyAyLjY1MSAxLjE4NyAzLjM3IDEuOTQ0LjcxNS43NTYgMS4wNzQgMS43NyAxLjA3NCAzLjA0MSAwIDEuMTQzLS4yNjQgMi4xMjctLjc5MiAyLjk1N2E1LjEyOSA1LjEyOSAwIDAxLTIuMTM0IDEuODk2Yy0uODk0LjQzMy0xLjg4OC42NDYtMi45NzcuNjQ2LTEuNSAwLTIuNzgyLS4zMjctMy44NTYtLjk3N3pNNjAuNjQ4IDEuMTZhOC4xNDggOC4xNDggMCAwMTMuMDk4IDMuMTkzYy43NCAxLjM1NiAxLjExIDIuODU0IDEuMTEgNC41IDAgMS42NjQtLjM3IDMuMTY3LTEuMTEgNC41MTFhOC4xODQgOC4xODQgMCAwMS0zLjA5OCAzLjE3OGMtMS4zMjMuNzcxLTIuODIgMS4xNi00LjQ3NiAxLjE2LTEuNjk0IDAtMy4xOTctLjM3LTQuNTEzLTEuMTEzLTEuMzE2LS43NDItMi4zNDMtMS43NDQtMy4wNzYtMy4wMDhhOC4xMTEgOC4xMTEgMCAwMS0xLjEtNC4xNDRjMC0xLjQwMy4yNTMtMi42NDUuNzU1LTMuNzI4YTcuNzgyIDcuNzgyIDAgMDEyLjA3NS0yLjcyNmwtLjU4Ni0uNTg4Yy42ODUtLjcwMiAxLjU5NS0xLjI3NSAyLjczNS0xLjcyM0M1My42MDIuMjI0IDU0LjgzNyAwIDU2LjE3MiAwYzEuNjYgMCAzLjE1My4zODYgNC40NzYgMS4xNnpNNTguNzYgMTMuNDk3YTQuNTg1IDQuNTg1IDAgMDAxLjczNC0xLjg5NWMuNDA3LS44MDguNjA5LTEuNzIzLjYwOS0yLjc1MiAwLTEuMDI1LS4yMDYtMS45NDMtLjYwOS0yLjc1MWE0LjU4NSA0LjU4NSAwIDAwLTEuNzM0LTEuODk2Yy0uNzQ4LS40NTUtMS42MS0uNjgzLTIuNTg4LS42ODMtLjgyOSAwLTEuNTY2LjE0LTIuMjEuNDE1YTQuNjMzIDQuNjMzIDAgMDAtMS42IDEuMTAybC41ODcuNTg4Yy0uNTIuNDQtLjkzNC45NTItMS4yNDYgMS41MjgtLjMwOC41OC0uNDYyIDEuMy0uNDYyIDIuMTY0IDAgLjg4Mi4xOTggMS42OS41OTggMi40MzJhNC40OCA0LjQ4IDAgMDAxLjcxOSAxLjc3Yy43NDguNDQxIDEuNjE3LjY2MiAyLjYxLjY2Mi45NzkgMCAxLjg0NC0uMjI4IDIuNTkyLS42ODR6bTExLjMyMS05LjY4NHYzLjkzOGg3LjI0OHYyLjgzNkg3MC4wOHY2LjgyMmgtMy43MVYuMjk0aDExLjY4OHYzLjUySDcwLjA4em0yMi42OTMgMEg4Ny45OVYxNy40MWgtMy43MDZWMy44MTNoLTQuODA3Vi4yOTNoMTMuM3YzLjUyaC0uMDAzem0xMi4xMzkgMTIuNzc3Yy0xLjI3Ni0uNzQzLTIuMjc3LTEuNzg2LTMuMDAzLTMuMTMtLjcyNi0xLjM0NS0xLjA4NS0yLjg4LTEuMDg1LTQuNjEgMC0xLjcxMi4zNjMtMy4yNCAxLjA4NS00LjU4NS43MjItMS4zNDUgMS43MTYtMi4zOTIgMi45NzctMy4xNEMxMDYuMTUyLjM3NCAxMDcuNTYgMCAxMDkuMTIxIDBjMS42NjEgMCAzLjA1OC4zMzggNC4xOTggMS4wMTQgMS4xNC42NzYgMi4wMTYgMS42NDIgMi42MzYgMi44OThsLTEuNzU2IDEuMTk4Yy0uNTM5LTEuMDEtMS4xOTktMS43NjMtMS45ODctMi4yNjNzLTEuNzkzLS43NDYtMy4wMTQtLjc0NmMtMS4xNzMgMC0yLjIyMS4yODctMy4xNDkuODU2LS45MjcuNTctMS42NDYgMS4zNy0yLjE1OSAyLjM5NS0uNTE0IDEuMDI1LS43NyAyLjE5My0uNzcgMy40OTcgMCAxLjM1Ni4yNDUgMi41MzUuNzQ0IDMuNTQ1LjQ5NSAxLjAxIDEuMTk5IDEuNzk3IDIuMTEyIDIuMzU5LjkwOS41NjIgMS45ODMuODQgMy4yMjIuODQgMS4yNTQgMCAyLjI0NC0uMjQyIDIuOTc3LS43MzQuNzMzLS40ODggMS4zOS0xLjI4NiAxLjk3Ni0yLjM5NWwxLjgwOCAxLjI3MWMtLjcwMSAxLjI4Ni0xLjU5OSAyLjI3LTIuNjk5IDIuOTQ2LTEuMS42NzYtMi40NTIgMS4wMTQtNC4wNjIgMS4wMTQtMS41OC4wMDctMy4wMDYtLjM2NC00LjI4NS0xLjEwNnptMTcuMjUyLS4wMzdhOC4wMTEgOC4wMTEgMCAwMS0yLjk4OC0zLjE2N2MtLjcxNS0xLjM0NC0xLjA3NC0yLjg1OC0xLjA3NC00LjUzNyAwLTEuNjc4LjM1OS0zLjE5MiAxLjA3NC00LjUzMy43MTUtMS4zNDQgMS43MTItMi40MDIgMi45ODgtMy4xNjYgMS4yNzYtLjc2NCAyLjcyLTEuMTUgNC4zMy0xLjE1IDEuNjA5IDAgMy4wNTQuMzgyIDQuMzI5IDEuMTVhOC4wMSA4LjAxIDAgMDEyLjk4OCAzLjE2NmMuNzE1IDEuMzQ1IDEuMDc1IDIuODU4IDEuMDc1IDQuNTMzIDAgMS42OC0uMzYgMy4xOTMtMS4wNzUgNC41MzctLjcxNSAxLjM0NS0xLjcxMiAyLjQwMy0yLjk4OCAzLjE2Ny0xLjI3OS43NjctMi43MiAxLjE1LTQuMzI5IDEuMTUtMS42MSAwLTMuMDU0LS4zODMtNC4zMy0xLjE1em03LjUwNS0xLjgyMmMuOTI3LS41NzcgMS42NDYtMS4zNzggMi4xNTktMi4zOTYuNTEzLTEuMDE3Ljc3LTIuMTc4Ljc3LTMuNDgyIDAtMS4zMDQtLjI1Ny0yLjQ2NS0uNzctMy40ODItLjUxMy0xLjAxOC0xLjIzMi0xLjgxOS0yLjE1OS0yLjM5NS0uOTI4LS41OC0xLjk4Ny0uODY3LTMuMTcyLS44NjctMS4xODcgMC0yLjI0My4yOS0zLjE3MS44NjctLjkyNy41NzYtMS42NDYgMS4zNzctMi4xNTkgMi4zOTUtLjUxMyAxLjAxNy0uNzcgMi4xODItLjc3IDMuNDgyIDAgMS4zMDQuMjU3IDIuNDY1Ljc3IDMuNDgyLjUxMyAxLjAyMiAxLjIzMiAxLjgxOSAyLjE1OSAyLjM5Ni45MjguNTggMS45ODQuODY3IDMuMTcxLjg2NyAxLjE4NSAwIDIuMjQ0LS4yODcgMy4xNzItLjg2N3pNMTM3LjUyNi4yOTRoMy4wNzJsOC4xNSAxNC40NzNoLjE0N2wtLjE0Ny0yLjAyN1YuMjk0aDIuMjQ0djE3LjExNWgtMy4wNzZsLTguMTUtMTQuNDc0aC0uMTQ3bC4xNDcgMi4wMjh2MTIuNDQ2aC0yLjI0NFYuMjk0aC4wMDR6bTE2LjQ5NCAwaDMuMDcybDguMTUgMTQuNDczaC4xNDZsLS4xNDYtMi4wMjdWLjI5NGgyLjI0M3YxNy4xMTVoLTMuMDc1bC04LjE1LTE0LjQ3NGgtLjE0N2wuMTQ3IDIuMDI4djEyLjQ0NmgtMi4yNDRWLjI5NGguMDA0em0yNy40OTkgMTUuMDF2Mi4xMDVoLTExLjAwNVYuMjk0aDEwLjg1OXYyLjEwMWgtOC42MTJWNy45Mmg3Ljc4M3YxLjg1OWgtNy43ODN2NS41MjVoOC43NTh6bTUuOTk0IDEuMjg2Yy0xLjI3NS0uNzQzLTIuMjc2LTEuNzg2LTMuMDAyLTMuMTMtLjcyMi0xLjM0NS0xLjA4NS0yLjg4LTEuMDg1LTQuNjEgMC0xLjcxMi4zNjMtMy4yNCAxLjA4NS00LjU4NS43MjItMS4zNDUgMS43MTYtMi4zOTIgMi45NzctMy4xNEMxODguNzQ5LjM3NCAxOTAuMTYgMCAxOTEuNzIyIDBjMS42NjEgMCAzLjA1OC4zMzggNC4xOTggMS4wMTQgMS4xNC42NzYgMi4wMTYgMS42NDIgMi42MzYgMi44OThMMTk2LjggNS4xMWMtLjUzOS0xLjAxLTEuMTk5LTEuNzYzLTEuOTg3LTIuMjYzLS43ODktLjQ5Ni0xLjc5My0uNzQ2LTMuMDE0LS43NDYtMS4xNzMgMC0yLjIyMi4yODctMy4xNDkuODU2LS45MjguNTctMS42NDYgMS4zNy0yLjE1OSAyLjM5NS0uNTE0IDEuMDI1LS43NyAyLjE5My0uNzcgMy40OTcgMCAxLjM1Ni4yNDUgMi41MzUuNzQ0IDMuNTQ1LjQ5NSAxLjAxIDEuMTk5IDEuNzk3IDIuMTEyIDIuMzU5LjkwOS41NjIgMS45ODMuODQgMy4yMjIuODQgMS4yNTQgMCAyLjI0NC0uMjQyIDIuOTc3LS43MzQuNzMzLS40ODggMS4zODktMS4yODYgMS45NzYtMi4zOTVsMS44MDcgMS4yNzFjLS43IDEuMjg2LTEuNTk4IDIuMjctMi42OTggMi45NDYtMS4xLjY3Ni0yLjQ1MyAxLjAxNC00LjA2MiAxLjAxNC0xLjU4NC4wMDctMy4wMS0uMzY0LTQuMjg2LTEuMTA2em0yNS40MTQtMTQuMjQzaC01LjA1MlYxNy40MWgtMi4yNDRWMi4zNDdoLTUuMDc0Vi4yOTRoMTIuMzczdjIuMDUzaC0uMDAzeiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg=="></a>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<nav class="header_menu">
+						<ul class="header__list">
+							<li> <a href="" class="header__link">Информация</a></li>
+							<li> <a href="#loyalty-program-section" class="header__link">Новости</a></li>
+							<li> <a href="" class="header__link">Store</a></li>
+							<li> <a href="" class="header__link">Ubisoft+</a></li>
+							<li> <a href="" class="header__link">Поддрержка</a></li>
+							<li> <a href="" class="header__link">Бесплатные события</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+	<section class="intro-section">
+		<div class="content">
+			<h2 class="gradient-text title-component" style="background-image:linear-gradient(90deg, #EB148A, #2824E6);">Увлеченные игроки меняют игры к лучшему</h2>
+			<p class="presentation-paragraph">Ubisoft Connect – это улучшенная кросс-платформенная экосистема игровых сервисов, которая объединяет нашу программу лояльности Ubisoft Club, Uplay, наше приложение для PC, и все игры Ubisoft. Мы создали Ubisoft Connect, чтобы дать всем игрокам комфортную среду, где можно наслаждаться любимыми играми с друзьями с любого устройства.</p>
+			<p class="presentation-paragraph">Ubisoft Connect – это бесплатный сервис, доступный на всех устройствах. Вы можете открыть его на РС, в мобильном приложения или на консоли прямо из игры. Для входа понадобится только <span class="home-signinlink"><a href="" class="nice-link link regular">учетная запись Ubisoft</a></span>! </p>
+			<div class="links">
+			<div class="app-links">
+				<div class="pc-client-link">
+					<a href="https://ubi.li/4vxt9" class="pcstore-link"><img src="https://ubistatic-a.akamaihd.net/0123/PROD/static/images/stores/pc/pc-badge.ru.svg?ts=2021-06-08T15:59:49.926Z" alt="Ubisoft Connect pc client"></a>
+				</div>
+				<a href="https://itunes.apple.com/ru/app/ubisoft-club/id405228226/" class="applestore-link"><img src="https://ubistatic-a.akamaihd.net/0123/PROD/static/images/stores/apple/badge.ru.svg?ts=2021-06-08T15:59:49.926Z" alt="Apple Store Ubisoft Connect application"></a>
+				<a href="https://play.google.com/store/apps/details/?id=com.ubisoft.uplay" class="playstore-link"> <img src="https://ubistatic-a.akamaihd.net/0123/PROD/static/images/stores/google/google-play-badge.ru.png?ts=2021-06-08T15:59:49.926Z" alt="Google Play Ubisoft Connect application"></a>
+			</div>
+		</div>
+
+		<div class="anchors">
+			<a href="#ecosystem-section">
+				<div class="bootstrap-card anchor-tile clickable card">
+					<div class="card-body">
+						<div class="anchor-icon">
+							<svg class="upn-icon" width="1em" height="1em" viewBox="0 0 64 64" fill="currentColor" aria-hidden="true" focusable="false" role="img" style="vertical-align: -0.15em;"><path d="M21.622 42.603a14.225 14.225 0 00-3.219-.372C12.228 42.231 6 46.351 6 52.823 6 53.44 6.869 54 7.46 54c.59 0 1.458-.589 1.458-1.177 0-4.708 4.558-7.65 9.485-7.65.527 0 1.05.035 1.565.103a15.875 15.875 0 011.654-2.673zM56.32 54c-.84 0-1.68-.843-1.68-1.685 0-6.74-7.32-11.796-14.283-11.796-7.009 0-14.282 5.056-14.282 11.796 0 .843-.84 1.685-1.68 1.685s-1.68-.801-1.68-1.685c0-9.268 8.858-15.166 17.642-15.166C49.141 37.149 58 43.088 58 52.315c0 .843-.84 1.685-1.68 1.685-.091 0 .136 0 0 0zM18.038 26.049c3.171 0 5.472 2.32 5.472 5.516 0 3.197-2.3 5.517-5.472 5.517-3.17 0-5.472-2.32-5.472-5.517.033-3.197 2.334-5.516 5.472-5.516zm0-2.943c-4.624 0-8.39 3.797-8.39 8.46 0 4.662 3.766 8.458 8.39 8.458 4.625 0 8.39-3.796 8.39-8.459 0-4.662-3.765-8.459-8.39-8.459zM39.428 13.344c4.563 0 8.623 3.935 8.623 8.358s-4.06 8.359-8.623 8.359c-4.562 0-8.622-3.936-8.622-8.359.048-4.423 4.108-8.359 8.622-8.359zm0-3.344c-6.653 0-12.07 5.252-12.07 11.702s5.417 11.702 12.07 11.702c6.654 0 12.072-5.252 12.072-11.702S46.082 10 39.428 10z"></path></svg>
+						</div>
+						<div class="anchor-label">
+							<span>Одна сеть для всех игроков</span>
+						</div>
+						<svg class="dropdown-icon" viewBox="0 0 16 16">
+							<title>drop-down</title>
+							<path fill="currentColor" d="M7.526 11.285l-0.003-0.004-5.842-5.741c-0.242-0.237-0.242-0.622 0-0.86s0.633-0.237 0.875 0l5.439 5.345 5.439-5.345c0.244-0.24 0.639-0.24 0.883 0s0.244 0.628 0 0.867l-5.874 5.773c-0.244 0.24-0.639 0.24-0.883 0-0.012-0.012-0.023-0.023-0.034-0.036z"></path>
+						</svg>
+					</div>
+				</div>
+			</a>
+			<a href="#loyalty-program-section">
+				<div class="bootstrap-card anchor-tile clickable card">
+					<div class="card-body">
+						<div class="anchor-icon">
+							<svg class="upn-icon" width="1em" height="1em" viewBox="0 0 64 64" fill="currentColor" aria-hidden="true" focusable="false" role="img" style="vertical-align: -0.15em;"><path d="M51.25 20.857H38.417l2.235-.448c3.076-.532 5.393-2.871 5.942-5.849a7.053 7.053 0 00-2.087-6.433C43.078 6.744 41.31 6 39.278 6c-.439 0-.933.053-1.373.106-3.076.532-5.493 2.872-6.042 5.849l-.495 2.659-.494-2.659c-.55-2.977-2.966-5.317-6.043-5.849C24.392 6 23.898 6 23.458 6c-1.977 0-4.358.798-5.786 2.18-1.758 1.701-2.527 4.094-2.088 6.434.55 2.977 3.425 5.263 6.5 5.795l2.124.448H12.75c-1.538 0-2.75 1.094-2.75 2.583v11.346c0 1.489 1.212 2.785 2.75 2.785V55.36c0 1.49 1.37 2.641 2.908 2.641h32.959c1.538 0 2.633-1.297 2.633-2.786V37.571c1.375 0 2.75-1.11 2.75-2.785V23.44c-.055-1.436-1.212-2.583-2.75-2.583zm-.917 13h-16.5v-9.286h16.5v9.286zm-14.625-18.5l.494-2.658c.22-1.223 1.264-2.233 2.527-2.445.165-.054.385-.054.604-.054a3.13 3.13 0 012.198.904 3.074 3.074 0 01.879 2.712c-.22 1.223-1.264 2.233-2.527 2.446l-4.45.797.275-1.701zm-15.625-1.464c-.164-.957.148-2.095.917-2.786.604-.585 1.69-.853 2.513-.853.22 0 .385 0 .604.053 1.264.212 2.307 1.223 2.527 2.446l.495 2.658.33 1.648-4.45-.797c-1.319-.213-2.716-1.146-2.936-2.37zM13.667 24.57h16.5v9.286h-16.5v-9.286zm2.75 13h13.75v16.715h-13.75V37.57zm31.166 16.715h-13.75V37.57h13.75v16.715z"></path></svg>
+						</div>
+						<div class="anchor-label">
+							<span>Праздник без конца</span>
+						</div>
+						<svg class="dropdown-icon" viewBox="0 0 16 16">
+							<title>drop-down</title>
+							<path fill="currentColor" d="M7.526 11.285l-0.003-0.004-5.842-5.741c-0.242-0.237-0.242-0.622 0-0.86s0.633-0.237 0.875 0l5.439 5.345 5.439-5.345c0.244-0.24 0.639-0.24 0.883 0s0.244 0.628 0 0.867l-5.874 5.773c-0.244 0.24-0.639 0.24-0.883 0-0.012-0.012-0.023-0.023-0.034-0.036z"></path>
+						</svg>
+					</div>
+				</div>
+			</a>
+			<a href="#home-stats-section">
+				<div class="bootstrap-card anchor-tile clickable card">
+					<div class="card-body">
+						<div class="anchor-icon">
+							<svg class="upn-icon" width="1em" height="1em" viewBox="0 0 64 64" fill="currentColor" aria-hidden="true" focusable="false" role="img" style="vertical-align: -0.15em;"><path d="M55.5 12h-15c-1.4 0-2.5 1.1-2.5 2.5V22H24.5c-1.4 0-2.5 1.1-2.5 2.5V32H8.5C7.1 32 6 33.1 6 34.5v15C6 50.9 7.1 52 8.5 52h15c.15 0 .35 0 .5-.05.15.05.3.05.5.05h15c.2 0 .35 0 .5-.05.15.05.35.05.5.05h15c1.4 0 2.5-1.1 2.5-2.5v-35c0-1.35-1.1-2.5-2.5-2.5zM10 36h12v12H10V36zm28 12H26V34.5 26h12v22zm16 0H42V16h12v32z"></path></svg>
+						</div>
+						<div class="anchor-label">
+							<span>Знания и развитие</span>
+						</div>
+						<svg class="dropdown-icon" viewBox="0 0 16 16">
+							<title>drop-down</title>
+							<path fill="currentColor" d="M7.526 11.285l-0.003-0.004-5.842-5.741c-0.242-0.237-0.242-0.622 0-0.86s0.633-0.237 0.875 0l5.439 5.345 5.439-5.345c0.244-0.24 0.639-0.24 0.883 0s0.244 0.628 0 0.867l-5.874 5.773c-0.244 0.24-0.639 0.24-0.883 0-0.012-0.012-0.023-0.023-0.034-0.036z"></path>
+						</svg>
+					</div>
+				</div>
+			</a>
+			<a href="#experience-pc-section">
+				<div class="bootstrap-card anchor-tile clickable card">
+					<div class="card-body">
+						<div class="anchor-icon">
+							<svg class="upn-icon" width="1em" height="1em" viewBox="0 0 64 64" fill="currentColor" aria-hidden="true" focusable="false" role="img" style="vertical-align: -0.15em;"><path fill-rule="evenodd" clip-rule="evenodd" d="M26.807 24.427c-1.419 0-2.62 1.177-2.62 2.68v18.26c0 4.691 3.751 8.45 8.317 8.45 4.564 0 8.309-3.756 8.309-8.45v-18.26c0-1.503-1.201-2.68-2.62-2.68H26.807zM20 27.107c0-3.762 3.023-6.863 6.807-6.863h11.386c3.784 0 6.807 3.101 6.807 6.863v18.26C45 52.315 39.437 58 32.504 58 25.574 58 20 52.317 20 45.368v-18.26z"></path>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M26.928 12.798c-.02-.023-.068-.096-.068-.267V7.16a1.16 1.16 0 10-2.32 0v5.37c0 .614.207 1.249.595 1.738.393.497.986.854 1.729.85h10.991c.02.024.072.098.072.273v.78c0 .175-.051.25-.072.273h-4.25c-.74 0-1.331.358-1.725.854a2.838 2.838 0 00-.595 1.74v1.21a1.16 1.16 0 102.32 0v-1.21c0-.174.052-.248.072-.272v-.001h4.25c.74 0 1.331-.357 1.725-.854.388-.489.595-1.123.595-1.74v-.78c0-.616-.207-1.25-.595-1.74-.394-.496-.985-.854-1.725-.854H26.928z"></path>
+								<path d="M30.577 28.574c0-1.049.86-1.899 1.923-1.899 1.062 0 1.923.85 1.923 1.899v5.695c0 1.049-.86 1.899-1.923 1.899-1.062 0-1.923-.85-1.923-1.899v-5.695z"></path></svg>
+						</div>
+						<div class="anchor-label">
+							<span>Получите больше возможностей, играя на PC</span>
+						</div>
+						<svg class="dropdown-icon" viewBox="0 0 16 16">
+							<title>drop-down</title>
+							<path fill="currentColor" d="M7.526 11.285l-0.003-0.004-5.842-5.741c-0.242-0.237-0.242-0.622 0-0.86s0.633-0.237 0.875 0l5.439 5.345 5.439-5.345c0.244-0.24 0.639-0.24 0.883 0s0.244 0.628 0 0.867l-5.874 5.773c-0.244 0.24-0.639 0.24-0.883 0-0.012-0.012-0.023-0.023-0.034-0.036z"></path>
+						</svg>
+					</div>
+				</div>
+			</a>
+			
+		</div>
+
+		</div>
+
+
+		
+	</section>
+
+	<div class="gradient-container">
+		<section id="ecosystem-section" class="ecosystem-section">
+			<div class="container">
+				<div class="gradient-bg"></div>
+				<div class="section-container">
+					<div class="image-container">
+						<img class="lazy-image ecosystem-image blur" src="https://ubistatic-a.akamaihd.net/0123/PROD/_next/static/images/ecosystem-26bda2cd74a510f36a8135a4e752fc18.png">
+					</div>
+					<div class="content">
+						<h3 class="home-surtitle">
+							<span class="icon"><svg class="upn-icon" width="1em" height="1em" viewBox="0 0 64 64" fill="currentColor" aria-hidden="true" focusable="false" role="img" style="vertical-align:-0.15em"><path d="M21.622 42.603a14.225 14.225 0 00-3.219-.372C12.228 42.231 6 46.351 6 52.823 6 53.44 6.869 54 7.46 54c.59 0 1.458-.589 1.458-1.177 0-4.708 4.558-7.65 9.485-7.65.527 0 1.05.035 1.565.103a15.875 15.875 0 011.654-2.673zM56.32 54c-.84 0-1.68-.843-1.68-1.685 0-6.74-7.32-11.796-14.283-11.796-7.009 0-14.282 5.056-14.282 11.796 0 .843-.84 1.685-1.68 1.685s-1.68-.801-1.68-1.685c0-9.268 8.858-15.166 17.642-15.166C49.141 37.149 58 43.088 58 52.315c0 .843-.84 1.685-1.68 1.685-.091 0 .136 0 0 0zM18.038 26.049c3.171 0 5.472 2.32 5.472 5.516 0 3.197-2.3 5.517-5.472 5.517-3.17 0-5.472-2.32-5.472-5.517.033-3.197 2.334-5.516 5.472-5.516zm0-2.943c-4.624 0-8.39 3.797-8.39 8.46 0 4.662 3.766 8.458 8.39 8.458 4.625 0 8.39-3.796 8.39-8.459 0-4.662-3.765-8.459-8.39-8.459zM39.428 13.344c4.563 0 8.623 3.935 8.623 8.358s-4.06 8.359-8.623 8.359c-4.562 0-8.622-3.936-8.622-8.359.048-4.423 4.108-8.359 8.622-8.359zm0-3.344c-6.653 0-12.07 5.252-12.07 11.702s5.417 11.702 12.07 11.702c6.654 0 12.072-5.252 12.072-11.702S46.082 10 39.428 10z"></path></svg></span>
+							<span class="r">Одна глобальная экосистема</span>
+						</h3>
+						<h2 class="gradient-text title-component" style="background-image:linear-gradient(90deg, #F9FF45, #FF7D45, #FF4579)">Одна сеть для всех игроков</h2>
+						<h3 class="home-subtitle">Взаимодействуйте с игроками на любых платформах и в любых играх</h3>
+						<p class="presentation-paragraph">Вы станете частью глобальной сети игроков Ubisoft и получите доступ ко всем сервисам независимо от того, на чем вы играете – на PC или консоли. Регулярные обновления будут давать вам больше возможностей для взаимодействия с сообществом, которое постоянно растет.</p>
+						<p class="presentation-paragraph">Находите друзей на всех платформах, смотрите, во что они играют, и следите за их достижениями.</p>
+						<h3 class="home-subtitle">Сохранение прогресса на всех устройствах</h3>
+						<p class="presentation-paragraph">Все достижения в новых играх* сохраняются в Ubisoft Connect, благодаря чему вы ничего не потеряете в случае замены консоли или перехода на PC.</p>
+						<p class="home-note">* Hyper Scape, Assassin's Creed Вальгалла, Immortals Fenyx Rising, Riders Republic</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="loyalty-program-section" class="loyalty-program-section">
+			<div class="container">
+				<div class="gradient-bg"></div>
+				<div class="section-container reverse">
+					<div class="image-container">
+						<img src="https://ubistatic-a.akamaihd.net/0123/PROD/_next/static/images/loyalty-4a793ee9900bbd49b0e446735921a1b0.svg">
+					</div>
+					<div class="content">
+						<h3 class="home-surtitle">
+							<span class="icon"><svg class="upn-icon" width="1em" height="1em" viewBox="0 0 64 64" fill="currentColor" aria-hidden="true" focusable="false" role="img" style="vertical-align:-0.15em">
+								<path d="M51.25 20.857H38.417l2.235-.448c3.076-.532 5.393-2.871 5.942-5.849a7.053 7.053 0 00-2.087-6.433C43.078 6.744 41.31 6 39.278 6c-.439 0-.933.053-1.373.106-3.076.532-5.493 2.872-6.042 5.849l-.495 2.659-.494-2.659c-.55-2.977-2.966-5.317-6.043-5.849C24.392 6 23.898 6 23.458 6c-1.977 0-4.358.798-5.786 2.18-1.758 1.701-2.527 4.094-2.088 6.434.55 2.977 3.425 5.263 6.5 5.795l2.124.448H12.75c-1.538 0-2.75 1.094-2.75 2.583v11.346c0 1.489 1.212 2.785 2.75 2.785V55.36c0 1.49 1.37 2.641 2.908 2.641h32.959c1.538 0 2.633-1.297 2.633-2.786V37.571c1.375 0 2.75-1.11 2.75-2.785V23.44c-.055-1.436-1.212-2.583-2.75-2.583zm-.917 13h-16.5v-9.286h16.5v9.286zm-14.625-18.5l.494-2.658c.22-1.223 1.264-2.233 2.527-2.445.165-.054.385-.054.604-.054a3.13 3.13 0 012.198.904 3.074 3.074 0 01.879 2.712c-.22 1.223-1.264 2.233-2.527 2.446l-4.45.797.275-1.701zm-15.625-1.464c-.164-.957.148-2.095.917-2.786.604-.585 1.69-.853 2.513-.853.22 0 .385 0 .604.053 1.264.212 2.307 1.223 2.527 2.446l.495 2.658.33 1.648-4.45-.797c-1.319-.213-2.716-1.146-2.936-2.37zM13.667 24.57h16.5v9.286h-16.5v-9.286zm2.75 13h13.75v16.715h-13.75V37.57zm31.166 16.715h-13.75V37.57h13.75v16.715z"></path>
+							</svg></span>
+							<span>Наша программа лояльности</span>
+						</h3>
+						<h2 class="gradient-text title-component" style="background-image:linear-gradient(90deg, #01E3BE, #007FDE)">
+							<span>Праздник без конца</span>
+						</h2>
+						<h3 class="home-subtitle">Играйте больше и получайте больше</h3>
+						<p class="presentation-paragraph">В старых играх доступно более 1000 бесплатных наград!</p>
+						<p class="presentation-paragraph">В новых играх вы сможете открывать легендарное оружие, экипировку, эмоции и расходуемые материалы. Каждый раз при достижении нового уровня в Ubisoft Connect вы получаете <a href="" class="units/"><span>Units</span></a>, которые можно потратить на уникальные награды.</p>
+						<p class="presentation-paragraph">Вы можете узнать больше о нашей программе лояльности<a href="faq/#loyalty-program">
+							<span>здесь</span>
+						</a>.</p>
+						<h3 class="home-subtitle">Скидка 20% в Ubisoft Store</h3>
+						<p class="presentation-paragraph">Потратьте 100 Units и получите 20-процентную скидку на следующую покупку в Ubisoft Store*.</p>
+						<div class="discount-button-mobile">
+							<a href="https://club.ubisoft.com/ru-RU/shop-discount/" target="_blank" class="discount-button btn btn-primary btn-md"><span>Получите скидку 20% за 100 
+								<img class="unit-icon" alt="units 💰" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMzYuMTQgMTM2LjE0Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI1LjM2IiB5MT0iNjguMDciIHgyPSIxMzAuNzgiIHkyPSI2OC4wNyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZkZWQwNyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2Y4YjgxOSIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iNTguODMiIHkxPSIyMzM5LjQ3IiB4Mj0iNTguODMiIHkyPSIyNDI1LjI1IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIDAgMjQzMC42MSkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmNmY1YzciLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmNmY1YzciIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PHJhZGlhbEdyYWRpZW50IGlkPSJjIiBjeD0iMTA0LjI3IiBjeT0iMTA3LjY3IiByPSIxMDMuNjIiIGdyYWRpZW50VHJhbnNmb3JtPSJyb3RhdGUoLS4xMiAtMTg4LjI1MSAxOTQ3Ljg2KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZjBiMyIvPjxzdG9wIG9mZnNldD0iLjc0IiBzdG9wLWNvbG9yPSIjZmZmMGIzIiBzdG9wLW9wYWNpdHk9IjAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48ZyBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGRhdGEtbmFtZT0iaWNvbnMtb3V0bGluZXMiPjxjaXJjbGUgY3g9IjY4LjA3IiBjeT0iNjguMDciIHI9IjY4LjA3IiBmaWxsPSIjZTA4NTI2Ii8+PHBhdGggZD0iTTY4LjA3IDEzMC43OGE2Mi43MSA2Mi43MSAwIDExNjIuNzEtNjIuNzEgNjIuOCA2Mi44IDAgMDEtNjIuNzEgNjIuNzF6IiBmaWxsPSJ1cmwoI2EpIi8+PHBhdGggZD0iTTUuNDMgNzAuODJjMCAuNDIuMDcuODUuMDcgMS4yN2E1OS4xNyA1OS4xNyAwIDAwMi42MSAxNC4yNUE3OCA3OCAwIDAwMTEyLjMgMjMuNjMgNjIuNyA2Mi43IDAgMDA1LjM2IDY4LjA3YTE5LjgyIDE5LjgyIDAgMDAuMDcgMnoiIGZpbGw9InVybCgjYikiLz48cGF0aCBkPSJNOTcuNjIgMzMuNzJIODEuNjh2NDIuNzRjMCAxMC43Mi01LjA4IDE2Ljc5LTE0LjM5IDE2Ljc5YTE2LjgzIDE2LjgzIDAgMDEtNi4yMS0xLjA2SDYxYy0uMDctLjA3LS4xNC0uMTQtLjIxLS4xNC0yLjEyLTIuODItMy4xNy02Ljg0LTMuMTctMTEuODVWMzcuNDZsLTQuNzItMy43NEgzN3Y0NGMwIDEwLjc5IDQuMDkgMTkuODkgMTEuNzggMjUuMzJsMi43NSAyLjE5Yy4wNy4wNyAxLjIuOTIgMS4yLjkyIDQuOSAzLjc1IDExLjI3IDUuOTMgMTkuMjcgNS45MyAxOS42MSAwIDMwLjMzLTEzLjEyIDMwLjMzLTMwLjYxdi00NHoiIGZpbGw9IiNhYjU1MjYiLz48cGF0aCBkPSJNOTcuNjIgMzMuNzJ2NDRjMCAxNy40OS0xMC43MiAzMC42MS0zMC4zMyAzMC42MVMzNyA5NS4yMyAzNyA3Ny43M3YtNDRoMTUuOXY0Mi43M2MwIDEwLjcyIDUgMTYuNzkgMTQuMzkgMTYuNzlzMTQuMzktNi4wNyAxNC4zOS0xNi43OVYzMy43MnoiIGZpbGw9IiNlMDg1MjYiIGRhdGEtbmFtZT0iVUJJU09GVCIvPjxwYXRoIGQ9Ik02OC4xNCAxMjEuNjhBNTMuNTcgNTMuNTcgMCAxMTEyMS42MSA2OGE1My41NyA1My41NyAwIDAxLTUzLjQ3IDUzLjY4em0tLjI4LTEwMi41NmE0OC44NSA0OC44NSAwIDEwNDkgNDguNzQgNDguODkgNDguODkgMCAwMC00OS00OC43NHoiIGZpbGw9IiNlMDg1MjYiIG9wYWNpdHk9Ii42IiBzdHlsZT0iaXNvbGF0aW9uOmlzb2xhdGUiLz48cGF0aCBkPSJNNjguMTQgMTIxLjY4QTUzLjU3IDUzLjU3IDAgMTExMjEuNjEgNjhhNTMuNTcgNTMuNTcgMCAwMS01My40NyA1My42OHptLS4yOC0xMDIuNTZhNDguODUgNDguODUgMCAxMDQ5IDQ4Ljc0IDQ4Ljg5IDQ4Ljg5IDAgMDAtNDktNDguNzR6IiBmaWxsPSJ1cmwoI2MpIi8+PC9nPjwvZz48L3N2Zz4="></span></a>
+						</div>
+						<p class="home-note"><span>* Могут действовать определенные ограничения на продукты, участвующие в акции. См. <a href="https://legal.ubi.com/UbisoftConnectLoyaltyProgramTerms/ru-RU/"><span>Условия использования</span></a>.</span></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="home-stats-section" id="home-stats-section">
+			<div class="container">
+				<div class="gradient-bg"></div>
+				<div class="section-container">
+					<div class="image-container">
+						<img class="lazy-image ecosystem-image blur" src="https://ubistatic-a.akamaihd.net/0123/PROD/_next/static/images/leaderboard-c7bf79e51402590cca5dd43c2974c508.png">
+					</div>
+					<div class="content">
+						<h3 class="home-surtitle">
+							<span class="icon">
+								<svg class="upn-icon" width="1em" viewBox="0 0 64 64" fill="currentColor" aria-hidden="true" focusable="false" role="img" style="vertical-align: -0.15em;"><path d="M55.5 12h-15c-1.4 0-2.5 1.1-2.5 2.5V22H24.5c-1.4 0-2.5 1.1-2.5 2.5V32H8.5C7.1 32 6 33.1 6 34.5v15C6 50.9 7.1 52 8.5 52h15c.15 0 .35 0 .5-.05.15.05.3.05.5.05h15c.2 0 .35 0 .5-.05.15.05.35.05.5.05h15c1.4 0 2.5-1.1 2.5-2.5v-35c0-1.35-1.1-2.5-2.5-2.5zM10 36h12v12H10V36zm28 12H26V34.5 26h12v22zm16 0H42V16h12v32z"></path></svg>
+							</span>
+							<span>Статистика и советы</span>
+						</h3>
+						<h2 class="gradient-text title-component" style="background-image: linear-gradient(111.95deg, rgb(214, 255, 91), rgb(20, 254, 198));"><span>Знания и развитие</span></h2>
+						<h3 class="home-subtitle">Вы можете в любое время посмотреть свою статистику и сравнить ее с результатами друзей</h3>
+						<p class="presentation-paragraph">Следите за статистикой, прогрессом и достижениями в любимых играх.</p><br>
+						<p class="presentation-paragraph">Вы можете посмотреть статистику друзей, даже если они играют на другой платформе.</p>
+						<h3 class="home-subtitle">Персональные подсказки помогут улучшить результаты в следующей сессии</h3>
+						<p class="presentation-paragraph">Перед началом новой сессии взгляните еще раз на ваши лучшие результаты и советы, подобранные специально для вас на основе вашего стиля игры.</p>
+						<h3 class="home-subtitle">Не пропустите новости и события, связанные с вашими любимыми играми</h3>
+						<p class="presentation-paragraph">В ленте появляются свежие новости о ваших играх: новые сезоны, испытания и награды... Все, что нужно знать о любимых играх.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="experience-pc-section" class="experience-pc-section">
+			<div class="container">
+				<div class="gradient-bg"></div>
+				<div class="section-container reverse">
+					<div class="image-container">
+						<img src="https://ubistatic-a.akamaihd.net/0123/PROD/_next/static/images/pc-launcher-a6cf12a5845261259bd87299a19446e7.png">
+					</div>
+					<div class="content">
+						<h3 class="home-surtitle">
+							<span class="icon"><svg class="upn-icon" width="1em" height="1em" viewBox="0 0 64 64" fill="currentColor" aria-hidden="true" focusable="false" role="img" style="vertical-align:-0.15em">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M26.807 24.427c-1.419 0-2.62 1.177-2.62 2.68v18.26c0 4.691 3.751 8.45 8.317 8.45 4.564 0 8.309-3.756 8.309-8.45v-18.26c0-1.503-1.201-2.68-2.62-2.68H26.807zM20 27.107c0-3.762 3.023-6.863 6.807-6.863h11.386c3.784 0 6.807 3.101 6.807 6.863v18.26C45 52.315 39.437 58 32.504 58 25.574 58 20 52.317 20 45.368v-18.26z"></path>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M26.928 12.798c-.02-.023-.068-.096-.068-.267V7.16a1.16 1.16 0 10-2.32 0v5.37c0 .614.207 1.249.595 1.738.393.497.986.854 1.729.85h10.991c.02.024.072.098.072.273v.78c0 .175-.051.25-.072.273h-4.25c-.74 0-1.331.358-1.725.854a2.838 2.838 0 00-.595 1.74v1.21a1.16 1.16 0 102.32 0v-1.21c0-.174.052-.248.072-.272v-.001h4.25c.74 0 1.331-.357 1.725-.854.388-.489.595-1.123.595-1.74v-.78c0-.616-.207-1.25-.595-1.74-.394-.496-.985-.854-1.725-.854H26.928z"></path>
+								<path d="M30.577 28.574c0-1.049.86-1.899 1.923-1.899 1.062 0 1.923.85 1.923 1.899v5.695c0 1.049-.86 1.899-1.923 1.899-1.062 0-1.923-.85-1.923-1.899v-5.695z"></path>
+							</svg></span>
+							<span>Ubisoft Connect PC</span>
+						</h3>
+						<h2 class="gradient-text title-component" style="background-image: linear-gradient(90deg, rgb(254, 70, 30), rgb(234, 21, 69), rgb(162, 19, 186));">
+							<span>Получите больше возможностей, играя на PC</span>
+						</h2>
+						<h3 class="home-subtitle">Ваши ворота в наши миры</h3>
+						<p class="presentation-paragraph">Управляйте вашими играми и запускайте их из библиотеки, открывайте новый контент и загружайте его с помощью настольного приложения. Проще простого! Вы можете получить доступ к подписке <a href="https://ubi.li/IJSOI/"><span>Ubisoft+</span></a> , дающей возможность играть на PC более чем в 100 игр Ubisoft, включая новинки и премиум-издания*.</p>
+						<p class="presentation-paragraph">Наслаждайтесь играми вместе с друзьями, создавайте группы для сетевой игры и новые чаты, в том числе и групповые.</p>
+						<h3 class="home-subtitle">Получайте игры в подарок, участвуйте в бесплатных выходных</h3>
+						<p class="presentation-paragraph">Опробуйте новые игры, благодаря множеству событий Ubisoft Connect PC, включающим бесплатные выходные и подарки. Вы также сможете первыми ознакомиться с некоторыми играми и глобальными обновлениями, участвуя в бета-тестировании и играя на открытых тестовых серверах.</p>
+						<p class="home-note"><span>* Обратите внимание, что при предоставлении доступа к каким-либо особым изданиям игры (Ultimate/Gold/Deluxe и другим) в Ubisoft+ может был включен не весь дополнительный контент. Условия могут измениться.</p>
+						<div class="discount-button-mobile">
+							<a href="https://club.ubisoft.com/ru-RU/shop-discount/" target="_blank" class="discount-button btn btn-primary btn-md"> <i class="fa fa-ravelry" aria-hidden="true"></i>
+Загрузка на PC</a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="access-section" id="access-section">
+			<h2 class="gradient-text title-component" style="background-image:linear-gradient(98deg, #08C1B5, #194CFF)">Пользуйтесь преимуществами Ubisoft Connect в любое время и в любом месте</h2>
+			<p class="presentation-paragraph">Консоль | PC | Мобильное устройство | Браузер</p>
+			<img class="lazy-image devices-image blur" src="https://ubistatic-a.akamaihd.net/0123/PROD/_next/static/images/devices-composition-d29dbea55ec3e0f0e5c2d7250be061d4.png">
+			<div class="links">
+			<div class="app-links">
+				<div class="pc-client-link">
+					<a href="https://ubi.li/4vxt9" class="pcstore-link"><img src="https://ubistatic-a.akamaihd.net/0123/PROD/static/images/stores/pc/pc-badge.ru.svg?ts=2021-06-08T15:59:49.926Z" alt="Ubisoft Connect pc client"></a>
+				</div>
+				<a href="https://itunes.apple.com/ru/app/ubisoft-club/id405228226/" class="applestore-link"><img src="https://ubistatic-a.akamaihd.net/0123/PROD/static/images/stores/apple/badge.ru.svg?ts=2021-06-08T15:59:49.926Z" alt="Apple Store Ubisoft Connect application"></a>
+				<a href="https://play.google.com/store/apps/details/?id=com.ubisoft.uplay" class="playstore-link"> <img src="https://ubistatic-a.akamaihd.net/0123/PROD/static/images/stores/google/google-play-badge.ru.png?ts=2021-06-08T15:59:49.926Z" alt="Google Play Ubisoft Connect application"></a>
+			</div>
+		</div>
+		</section>
+
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+    $('.header__burger').click(function() {
+        $('.header_menu,.header__burger').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+
+    $('.header__list').click(function() {
+
+        $('.header__burger,.header_menu').removeClass('active');
+
+        $('body').removeClass('lock')});
+});
+	</script>
+	
+<script src="https://use.fontawesome.com/7f45a6622b.js"></script>
+
+
+
+</body>
+
+<footer class="club-footer">
+	<div class="footer-container">
+		<div class="FooterUtilityMenu">
+			<div class="socials">
+				<div class="SocialLinkList SocialLinkList">
+					<span>Мы в соцсетях</span>
+					<a class="nice-link link social-link regular OutboundLink social-link tracking-wrapper" href="https://www.facebook.com/UbisoftConnect">
+						<div class="social-link-text">
+							<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzMiIGhlaWdodD0iMzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE2Ljc3OCAwYy04LjgzNiAwLTE2IDcuMTY0LTE2IDE2czcuMTY0IDE2IDE2IDE2IDE2LTcuMTY0IDE2LTE2LTcuMTY0LTE2LTE2LTE2em00IDEwLjY2N2gtMS44Yy0uNzE4IDAtLjg2Ny4yOTQtLjg2NyAxLjAzN3YxLjYzaDIuNjY3TDIwLjQ5OSAxNmgtMi4zODh2OS4zMzNoLTRWMTZoLTIuNjY3di0yLjY2N2gyLjY2N3YtMy4wNzdjMC0yLjM1OSAxLjI0MS0zLjU5IDQuMDM5LTMuNTloMi42Mjh2NHoiIGZpbGw9IiNENkQ2RDYiLz48L3N2Zz4=" class="facebook-icon">
+						</div>
+					</a>
+						<a class="nice-link link social-link regular OutboundLink social-link tracking-wrapper" href="https://twitter.com/Ubisoftconnect">
+							<div class="social-link-text">
+								<img class="twitter-icon" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzMiIGhlaWdodD0iMzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE2Ljc3OCAwYy04LjgzNiAwLTE2IDcuMTY0LTE2IDE2czcuMTY0IDE2IDE2IDE2IDE2LTcuMTY0IDE2LTE2LTcuMTY0LTE2LTE2LTE2em04LjA4OCAxMi44NmMuMjQ0IDUuMzg3LTMuNzc0IDExLjM5Mi0xMC44ODYgMTEuMzkyLTIuMTYyIDAtNC4xNzQtLjYzNS01Ljg2OS0xLjcyMWE3LjcwNSA3LjcwNSAwIDAwNS42Ny0xLjU4NiAzLjgzOCAzLjgzOCAwIDAxLTMuNTgtMi42NiAzLjg0IDMuODQgMCAwMDEuNzMxLS4wNjVjLTEuODQtLjM3LTMuMTEzLTIuMDMtMy4wNzItMy44MDRhMy44MiAzLjgyIDAgMDAxLjczNS40NzlBMy44MzUgMy44MzUgMCAwMTkuNDEgOS43OGExMC44NyAxMC44NyAwIDAwNy44OTMgNC4wMDJjLS41NTktMi4zOTUgMS4yNTktNC43MDMgMy43MzItNC43MDMgMS4xIDAgMi4wOTYuNDY1IDIuNzk1IDEuMjFhNy42MzcgNy42MzcgMCAwMDIuNDMyLS45MyAzLjg0NiAzLjg0NiAwIDAxLTEuNjg0IDIuMTE5IDcuNjQzIDcuNjQzIDAgMDAyLjE5OC0uNjA0IDcuNjg5IDcuNjg5IDAgMDEtMS45MSAxLjk4NXoiIGZpbGw9IiNENkQ2RDYiLz48L3N2Zz4=">
+							</div>
+						</a>
+						<a class="nice-link link social-link regular OutboundLink social-link tracking-wrapper" href="https://www.instagram.com/ubisoftconnect">
+							<div class="social-link-text">
+								<img class="instagram-icon" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzMiIGhlaWdodD0iMzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIzLjc3OCA5LjcxN3YxLjY5MmEuNzE5LjcxOSAwIDAxLS43MTguNzE5aC0xLjY5MmEuNzE3LjcxNyAwIDAxLS43MTctLjcxOVY5LjcxN2MwLS4zOTYuMzE5LS43MTcuNzE3LS43MTdoMS42OTJjLjM5NiAwIC43MTguMzIxLjcxOC43MTd6bS03IDkuODcxYTMuNTg5IDMuNTg5IDAgMTAwLTcuMTc2QTMuNTg3IDMuNTg3IDAgMDAxMy4xOSAxNmEzLjU4NyAzLjU4NyAwIDAwMy41ODggMy41ODh6bTUuNjgxLTQuMzg4Yy4wMzcuMjYxLjA2MS41MjguMDYxLjc5OUE1Ljc0MiA1Ljc0MiAwIDExMTEuMDM1IDE2YzAtLjI3Mi4wMjQtLjUzNy4wNjEtLjc5OWE1LjU3IDUuNTcgMCAwMS4xNTgtLjc1Nkg5Ljc3OHY3LjgzOWMwIC4zOTYuMzIxLjcxNy43MTcuNzE3SDIzLjA2YS43MTguNzE4IDAgMDAuNzE4LS43MTd2LTcuODM5aC0xLjQ3NmMuMDY2LjI0Ni4xMi40OTguMTU3Ljc1NXptMTAuMzE5LjhjMCA4LjgzNi03LjE2NCAxNi0xNiAxNnMtMTYtNy4xNjQtMTYtMTYgNy4xNjQtMTYgMTYtMTYgMTYgNy4xNjQgMTYgMTZ6TTI2LjExIDguODJjMC0xLjE5LS45NjQtMi4xNTMtMi4xNTMtMi4xNTNIOS41OThjLTEuMTkgMC0yLjE1NC45NjQtMi4xNTQgMi4xNTN2MTQuMzU5YzAgMS4xOS45NjQgMi4xNTQgMi4xNTQgMi4xNTRoMTQuMzZjMS4xOSAwIDIuMTUzLS45NjQgMi4xNTMtMi4xNTRWOC44MnoiIGZpbGw9IiNENkQ2RDYiLz48L3N2Zz4=">
+							</div>
+						</a>
+						<div class="btn-select language-selector dark">
+							<svg class="select-icon" viewBox="0 0 16 16" width="16" height="16" style="color:currentColor">
+								<title>drop-down</title>
+								<path fill="currentColor" d="M7.526 11.285l-0.003-0.004-5.842-5.741c-0.242-0.237-0.242-0.622 0-0.86s0.633-0.237 0.875 0l5.439 5.345 5.439-5.345c0.244-0.24 0.639-0.24 0.883 0s0.244 0.628 0 0.867l-5.874 5.773c-0.244 0.24-0.639 0.24-0.883 0-0.012-0.012-0.023-0.023-0.034-0.036z"></path>
+							</svg>
+							<select>
+								<option value="cs-CZ">Český</option>
+								<option value="da-DK">Dansk</option>
+								<option value="de-DE">Deutsch</option>
+								<option value="en-US">English (US)</option>
+								<option value="en-CA">English (CA)</option>
+								<option value="en-GB">English (GB)</option>
+								<option value="es-ES">Español</option>
+								<option value="es-MX">ČesEspañol (MX)</option>
+								<option value="fr-FR">Français</option>
+								<option value="fr-CA">Français (CA)</option>
+								<option value="it-IT">Italiano</option>
+								<option value="hu-HU">Magyar</option>
+								<option value="nb-NO">Norsk</option>
+								<option value="nl-NL">Nederlands</option>
+								<option value="pl-PL">Polski</option>
+								<option value="pt-PT">Português</option>
+								<option value="pt-BR">Português (BR)</option>
+								<option value="sv-SE">Svenska</option>
+								<option value="fi-FI">Suomi</option>
+								<option value="tr-TR">Türkçe</option>
+								<option value="ja-JP">日本語</option>
+								<option selected="" value="ru-RU">Русский</option>
+								<option value="uk-UA">Українська</option>
+								<option value="zh-CN">简体中文</option>
+								<option value="zh-TW">繁體中文</option>
+								<option value="ko-KR">한국어</option>
+							</select>
+						</div>
+				</div>
+			</div>
+		</div>
+		<hr class="footer-separator">
+		<div class="footer-links">
+			<div class="footer-menu">
+				<nav class="FooterMainMenu">
+					<ul class="Menu">
+						<li class="MenuLink">
+							<a class="nice-link link regular OutboundLink" href="https://www.ubisoft.com/ru-ru">Ubisoft.com</a>
+						</li>
+						<li class="MenuLink">
+							<a class="nice-link link regular OutboundLink" href="https://support.ubi.com/ru-RU"><span>Поддержка</span></a>
+						</li>
+						<li class="MenuLink">
+							<a class="nice-link link regular OutboundLink" href="https://news.ubisoft.com/ru-RU"><span>Блог</span></a>
+						</li>
+						<li class="MenuLink">
+							<a class="nice-link link regular OutboundLink" href="https://forums-ru.ubi.com/"><span>Форумы</span></a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="FooterSecondaryMenu">
+					<ul class="Menu">
+						<li class="MenuLink">
+							<a class="nice-link link regular OutboundLink" href="https://legal.ubi.com/termsofuse/ru-RU">Условия использования</a>
+						</li>
+						<li class="MenuLink">
+							<a class="nice-link link regular OutboundLink" href="https://legal.ubi.com/termsofsale/ru-RU">Условия продажи</a>
+						</li>
+						<li class="MenuLink">
+							<a class="nice-link link regular OutboundLink" href="https://legal.ubi.com/privacypolicy/ru-RU">Условия использования</a>
+						</li>
+						<li class="MenuLink">
+							<a class="nice-link link regular OutboundLink" href="/">Политика конфиденциальности</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="footer-copyright">© Ubisoft Entertainment. All Rights Reserved.</div>
+	</div>
+</footer>
+</html>
